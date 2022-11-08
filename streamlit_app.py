@@ -4,7 +4,7 @@ import requests
 import snowflake.connector
 from urllib.error import URLError
 
-ZENA_OR_FRUITY = 'fruity'
+ZENA_OR_FRUITY = 'zena'
 
 if ZENA_OR_FRUITY == 'fruity':
 
