@@ -75,7 +75,7 @@ if ZENA_OR_FRUITY == 'fruity':
         my_cnx.close()
         streamlit.text(text_inserted_row)
 
-if zenas_or_fruity == 'zena':
+if ZENA_OR_FRUITY  == 'zena':
     streamlit.title('Zena\'s Amazing Athleisure Catalog')
 
     # connect to snowflake
